@@ -1,0 +1,199 @@
+h1 {
+    font-family: 'Lato-Light';
+    position: absolute;
+    top: 235px;
+    left: 389px;
+    font-size: 100px;
+    color: #fff;
+    z-index: 1;
+}
+
+.backgroundimg {
+    height: 900px;
+    background-image: url(../image/kaci.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.navigation {
+    display: inline-block;
+    position: absolute;
+    top: 61px;
+    left: 68px;
+    z-index: 1;
+}
+.navigation a{
+    font-family: 'Poppins-Medium';
+    color: #D9F0FF;
+    font-size: 28px;
+}
+.ulnavigation{
+    position: absolute;
+    right: 143px;
+    top: 67px;
+    z-index: 1;
+}
+.ulnavigation li {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.ulnavigation a{
+    font-family: 'Lato-Bold';
+    text-transform: uppercase;
+    margin-left: 31px;
+    color: #D9F0FF;
+    font-size: 12px;
+}
+
+.button{
+    background-color: #325DFF;
+    border-radius: 36px;
+    width: 307px;
+    height: 72px;
+    border: none;
+    position: absolute;
+    top: 460px;
+    left: 487px;
+    z-index: 1;
+}
+.button a{
+    font-family: 'Lato-Bold';
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+
+.filter{
+    height: 100%;
+    background-color: #0000FD;
+    opacity: 0.22;
+}
+
+
+
+/** section 1 **/
+.bigbox{
+    display: flex;
+}
+.firistbox{
+    width: 50%;
+    padding: 104px 91px 101px 82px; 
+}
+.firistbox h2{
+    font-family: 'Lato-Light';
+    font-size: 50px;
+    margin-bottom: 36px;
+    width: 468px;
+}
+.firistbox p{
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    opacity: 0.5;
+    margin-bottom: 58px;
+    width: 457px;
+}
+
+.secendbutton{
+    background-color: #325DFF;
+    border-radius: 36px;
+    width: 307px;
+    height: 72px;
+    border: none;
+}
+.secendbutton a {
+    font-family: 'Lato-Bold';
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+
+.secendimg{
+    height: 601px;
+    width: 50%;
+    background-image: url(../image/koshki.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.sectionhead {
+    background-color: #FAFAFA;
+    padding: 87px 54px 119px 55px;
+}
+.sectionhead h2 {
+    font-family: 'Lato-Light';
+    font-size: 35px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.secheadtxt {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    opacity: 0.65;
+    margin:0 0 89px 261px;
+    text-align: center;
+    width: 771px;
+}
+.iconbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    padding: 67px 72px 54px 76px;
+    width: 250px;
+    border: 0.5px solid #CECECE;
+}
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3) {
+    margin-bottom: 25px;
+}
+.box h3 {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.box p {
+    font-family: 'Poppins-Light';
+    font-size: 16px; 
+}
+
+.box i{
+    color: #fff;
+    font-size: 32px;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+}
+
+.icon {
+    background-color: #325DFF;
+    border-radius: 100px;
+    height: 88px;
+    width: 88px;
+    position: relative;
+    margin:0 0 30px 85px;
+}
+
+
+
+
+.btn:link,
+.btn:visited {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+   
+    
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #320DFF;
+    
+}
+
